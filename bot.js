@@ -8,8 +8,8 @@ import multer from "multer";
 const upload = multer({ dest: "uploads/" });
 
 
-const bot = new Telegraf('7877017387:AAFkMwxHhqTgecKiRKM0CI8GhyPJ__zZ4gs');
-const adminChatId = '8131099974';
+const bot = new Telegraf('7418289333:AAFL8o3zKyP7U-i3Gcq86JJpIc4P5VsqcSo');
+const adminChatId = '8038130471';
 const app = express();
 
 app.use(express.static("public"))
